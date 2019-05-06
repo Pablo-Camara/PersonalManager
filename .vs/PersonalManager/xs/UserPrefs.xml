@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{494B79FE-C77F-4AF8-A894-E0F141BC7693}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Services/Index.cshtml.cs">
+    <Files>
+      <File FileName="Data/ApplicationDbContext.cs" Line="1" Column="1" />
+      <File FileName="Data/Models/Service.cs" Line="14" Column="40" />
+      <File FileName="Pages/Shared/_Layout.cshtml" Line="36" Column="95" />
+      <File FileName="Pages/Services/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Pages/Services/Index.cshtml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PersonalManager" expanded="True">
+            <Node name="PersonalManager" expanded="True">
+              <Node name="Data" expanded="True">
+                <Node name="Models" expanded="True" />
+              </Node>
+              <Node name="Pages" expanded="True">
+                <Node name="Services" expanded="True">
+                  <Node name="Index.cshtml.cs" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.PersonalManager PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

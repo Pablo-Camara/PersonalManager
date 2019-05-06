@@ -63,3 +63,8 @@
 /Users/pablocamara/Desktop/projects/PersonalManager/obj/Debug/netcoreapp2.2/Razor/Areas/Identity/Pages/Account/_ViewImports.g.cshtml.cs
 /Users/pablocamara/Desktop/projects/PersonalManager/obj/Debug/netcoreapp2.2/Razor/Areas/Identity/Pages/_ValidationScriptsPartial.g.cshtml.cs
 /Users/pablocamara/Desktop/projects/PersonalManager/obj/Debug/netcoreapp2.2/Razor/Areas/Identity/Pages/_ViewImports.g.cshtml.cs
+/Users/pablocamara/Desktop/projects/PersonalManager/obj/Debug/netcoreapp2.2/Razor/Pages/Services/Create.g.cshtml.cs
+/Users/pablocamara/Desktop/projects/PersonalManager/obj/Debug/netcoreapp2.2/Razor/Pages/Services/Delete.g.cshtml.cs
+/Users/pablocamara/Desktop/projects/PersonalManager/obj/Debug/netcoreapp2.2/Razor/Pages/Services/Details.g.cshtml.cs
+/Users/pablocamara/Desktop/projects/PersonalManager/obj/Debug/netcoreapp2.2/Razor/Pages/Services/Edit.g.cshtml.cs
+/Users/pablocamara/Desktop/projects/PersonalManager/obj/Debug/netcoreapp2.2/Razor/Pages/Services/Index.g.cshtml.cs
