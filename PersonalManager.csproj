@@ -16,6 +16,14 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.4" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.4" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGenerators.Mvc" Version="2.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\Models\MetaData\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Pages\MetaData\MetaInformation.cs" />
+  </ItemGroup>
 </Project>
