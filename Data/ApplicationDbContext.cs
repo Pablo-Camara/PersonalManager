@@ -14,5 +14,6 @@ namespace PersonalManager.Data
         {
         }
         public DbSet<PersonalManager.Data.Models.Service> Service { get; set; }
+        public DbSet<PersonalManager.Data.Models.Gateway> Gateway { get; set; }
     }
 }

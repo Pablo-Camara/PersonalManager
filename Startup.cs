@@ -46,6 +46,7 @@ namespace PersonalManager
             services.AddMvc()
                 .AddRazorPagesOptions(options => {
                     options.Conventions.AuthorizeFolder("/Services");
+                    options.Conventions.AuthorizeFolder("/Gateways");
                 })
                 .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }

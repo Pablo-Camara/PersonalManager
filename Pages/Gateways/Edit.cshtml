@@ -1,0 +1,45 @@
+@page
+@model PersonalManager.Pages_Gateways.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Gateway</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Gateway.ID" />
+            <div class="form-group">
+                <label asp-for="Gateway.Title" class="control-label"></label>
+                <input asp-for="Gateway.Title" class="form-control" />
+                <span asp-validation-for="Gateway.Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Gateway.Description" class="control-label"></label>
+                <input asp-for="Gateway.Description" class="form-control" />
+                <span asp-validation-for="Gateway.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Gateway.URL" class="control-label"></label>
+                <input asp-for="Gateway.URL" class="form-control" />
+                <span asp-validation-for="Gateway.URL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
